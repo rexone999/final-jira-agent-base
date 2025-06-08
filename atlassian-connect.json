@@ -1,7 +1,7 @@
 {
   "key": "basic-jira-agent",
   "name": "PO Assist Agent (Render Final)",
-  "baseUrl": "https://final-jira-agent-base.onrender.com",
+  "baseUrl": "https://jira-agent-base.onrender.com",
   "authentication": {
     "type": "none"
   },
