@@ -1,0 +1,28 @@
+{
+  "key": "basic-jira-agent",
+  "name": "PO Assist Agent (Render Final)",
+  "baseUrl": "https://jira-agent-base.onrender.com",
+  "authentication": {
+    "type": "none"
+  },
+  "lifecycle": {
+    "installed": "/installed"
+  },
+  "scopes": [
+    "read",
+    "write"
+  ],
+  "modules": {
+    "generalPages": [
+      {
+        "key": "basic-agent-page",
+        "location": "system.top.navigation.bar",
+        "name": {
+          "value": "PO Assist Agent"
+        },
+        "url": "/",
+        "conditions": []
+      }
+    ]
+  }
+}
